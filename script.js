@@ -1,5 +1,5 @@
 export function translateMorse() {
-  return null;
+  return "string";
 }
 
 export function translateEnglish() {
