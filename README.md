@@ -7,20 +7,20 @@ The User Interface will have to look good but should remain simple (additional f
 
 ## MVP
 
--   Create a user interface that allows the user to either input some English text or some Morse Code
--   Create JS functions that would allow the user to:
+- Create a user interface that allows the user to either input some English text or some Morse Code
+- Create JS functions that would allow the user to:
 
-    -   translate their English text into Morse Code
-    -   Morse Code into English text
+  - translate their English text into Morse Code
+  - Morse Code into English text
 
--   Make sure to handle spaces properly (ie. there is 1 space between English words, but one space between Morse Code characters)
+- Make sure to handle spaces properly (ie. there is 1 space between English words, but one space between Morse Code characters)
 
-## Useful Resources:
+## Useful Resources
 
--   [Iterate Object in JavaScript](https://www.javascripttutorial.net/object/iterate-object-in-javascript/)
--   [Looping through objects keys and values in Javascript?](https://flexiple.com/loop-through-object-javascript/)
+- [Iterate Object in JavaScript](https://www.javascripttutorial.net/object/iterate-object-in-javascript/)
+- [Looping through objects keys and values in Javascript?](https://flexiple.com/loop-through-object-javascript/)
 
-###
+### Morse Code
 
 ```js
 // A to Z in Morse Code
@@ -53,3 +53,16 @@ The User Interface will have to look good but should remain simple (additional f
 }
 
 ```
+
+## Submission
+
+- Create an empty main branch
+- Do all work in develop branch
+- Add coach who is doing 1:1 as a contributor to your repo
+- Tag coach in PR from develop branch into main for 1:1
+
+## Expansion ideas
+
+- Cover more than just A-Z characters
+- Store translation in a json file
+- Do fancy things with sound or flashes (only if you have heaps of spare time)
