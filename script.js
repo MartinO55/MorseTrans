@@ -1,7 +1,7 @@
-function translateMorse() {
+export function translateMorse() {
   return null;
 }
 
-function translateEnglish() {
+export function translateEnglish() {
   return null;
 }

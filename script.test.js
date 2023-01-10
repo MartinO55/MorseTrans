@@ -1,5 +1,4 @@
-import { describe } from "node:test";
-import { translateMorse, translateEnglish } from "script.js";
+import { translateMorse, translateEnglish } from "./script";
 
 /*
     It should have a test driven development cycle
@@ -14,6 +13,6 @@ import { translateMorse, translateEnglish } from "script.js";
 
 describe("translateMorse", () => {
   it("should be a function", () => {
-    expect(typeof translateMorse).tobe("function");
+    expect(typeof translateMorse).toBe("function");
   });
 });
