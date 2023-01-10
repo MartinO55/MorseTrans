@@ -5,6 +5,8 @@
 This task will require you to create a web page Morse Code translator.
 The User Interface will have to look good but should remain simple (additional features, ie. sounds, lights, etc, should only be added once the MVP has been completed.)
 
+- So for this I am going to try test driven devlopment for the javascript
+
 ## MVP
 
 - Create a user interface that allows the user to either input some English text or some Morse Code
@@ -50,6 +52,17 @@ The User Interface will have to look good but should remain simple (additional f
    "X": "-..-",
    "Y": "-.--",
    "Z": "--.."
+
+   "0": "-----"
+   "1": ".----"
+   "2": "..---"
+   "3": "...--"
+   "4": "....-"
+   "5": "....."
+   "6": "-...."
+   "7": "--..."
+   "8": "---.."
+   "9": "----."
 }
 
 ```
