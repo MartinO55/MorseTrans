@@ -1,5 +1,4 @@
 export function translateMorse(stringToTranslate = "") {
-  //TODO translate object to hold morse
   const morseCode = {
     A: ".-",
     B: "-...",
