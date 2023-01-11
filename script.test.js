@@ -13,7 +13,7 @@ import { translateMorse, translateEnglish } from "./script";
 
     it should translate numbers
 */
-
+//mostly used to check if node is functioning
 describe("translateMorse", () => {
   it("should be a function", () => {
     expect(typeof translateMorse).toBe("function");
@@ -35,5 +35,6 @@ describe("translateMorse", () => {
     expect(translateMorse("a")).toBe(".-");
     expect(translateMorse("b")).toBe("-...");
     expect(translateMorse("Hi")).toBe(".... ..");
+    expect(translateMorse("0")).toBe("-----");
   });
 });
