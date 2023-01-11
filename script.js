@@ -46,6 +46,51 @@ export function translateMorse(stringToTranslate = "") {
   return outstring;
 }
 
-export function translateEnglish() {
-  return null;
+export function translateEnglish(stringToTranslate) {
+  const morseCode = {
+    A: ".-",
+    B: "-...",
+    C: "-.-.",
+    D: "-..",
+    E: ".",
+    F: "..-.",
+    G: "--.",
+    H: "....",
+    I: "..",
+    J: ".---",
+    K: "-.-",
+    L: ".-..",
+    M: "--",
+    N: "-.",
+    O: "---",
+    P: ".--.",
+    Q: "--.-",
+    R: ".-.",
+    S: "...",
+    T: "-",
+    U: "..-",
+    W: ".--",
+    X: "-..-",
+    Y: "-.--",
+    Z: "--..",
+    0: "-----",
+    1: ".----",
+    2: "..---",
+    3: "...--",
+    4: "....-",
+    5: ".....",
+    6: "-....",
+    7: "--...",
+    8: "---..",
+    9: "----.",
+  };
+  //not sure if thi will work
+  let outstring = stringToTranslate
+    .toUpperCase()
+    .split(" ")
+    .map((e) => {
+      return morseCode[e] ? morseCode[e] : e;
+    })
+    .join("");
+  return outstring;
 }
