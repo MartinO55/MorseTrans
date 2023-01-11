@@ -84,7 +84,7 @@ export function translateEnglish(stringToTranslate) {
     8: "---..",
     9: "----.",
   };
-  //not sure if thi will work
+  //not sure if this will work
   let outstring = stringToTranslate
     .toUpperCase()
     .split(" ")
