@@ -89,7 +89,7 @@ export function translateEnglish(stringToTranslate) {
     .toUpperCase()
     .split(" ")
     .map((e) => {
-      return morseCode[e] ? morseCode[e] : e;
+      (e) => morseCode[e];
     })
     .join("");
   return outstring;
