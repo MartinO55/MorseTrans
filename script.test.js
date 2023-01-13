@@ -1,5 +1,5 @@
 //import { it } from "node:test";//this keeps popping up, and causes errors when it does
-import { translateMorse, translateEnglish } from "./script";
+import { translateMorse, translateEnglish } from "./functions";
 
 /*
     It should have a test driven development cycle
