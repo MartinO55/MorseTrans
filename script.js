@@ -4,7 +4,10 @@ document.querySelectorAll(".submitText").forEach((element) => {
   element.addEventListener("click", (event) => {
     event.preventDefault();
     let content = document.getElementById("englishTextContainer").value;
-    translateMorse(content);
+
+    //console.log(translateMorse(content)); //okay it works
+    document.getElementById("translatedOutput").innerHTML =
+      translateMorse(content);
   });
 });
 
