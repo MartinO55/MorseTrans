@@ -12,6 +12,7 @@ import { translateMorse, translateEnglish } from "./script";
     if passed bad data it should fail gracefully 
 
     it should translate numbers
+    need 2 describe blocks
 */
 //mostly used to check if node is functioning
 describe("translateMorse", () => {
