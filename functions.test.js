@@ -1,5 +1,5 @@
 //import { it } from "node:test";//this keeps popping up, and causes errors when it does
-import { translateMorse, translateEnglish } from "./functions";
+import { translateMorse, translateEnglish } from "./functions.js";
 
 /*
     It should have a test driven development cycle
@@ -15,6 +15,7 @@ import { translateMorse, translateEnglish } from "./functions";
     need 2 describe blocks
 */
 //mostly used to check if node is functioning
+
 describe("translateMorse", () => {
   it("should be a function", () => {
     expect(typeof translateMorse).toBe("function");
@@ -37,5 +38,24 @@ describe("translateMorse", () => {
     expect(translateMorse("b")).toBe("-...");
     expect(translateMorse("Hi")).toBe(".... ..");
     expect(translateMorse("0")).toBe("-----");
+  });
+});
+
+describe("translateEnglish", () => {
+  it("should be a function", () => {
+    expect(typeof translateEnglish).toBe("function");
+  });
+
+  it("should return a string if passed a string", () => {
+    const answer = translateEnglish("string");
+
+    expect(typeof answer).toBe("string");
+  });
+
+  it("should translate an morse string to english", () => {
+    expect(translateEnglish(".-")).toBe("A");
+    expect(translateEnglish("-...")).toBe("B");
+    expect(translateEnglish(".... ..")).toBe("HI");
+    expect(translateEnglish("-----")).toBe("0");
   });
 });

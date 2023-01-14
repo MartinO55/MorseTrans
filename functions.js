@@ -65,3 +65,5 @@ export function translateEnglish(stringToTranslate) {
 
   return outstring;
 }
+
+console.log(translateEnglish(".-"));

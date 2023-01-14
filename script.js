@@ -1,4 +1,4 @@
-import { translateMorse } from "./functions.js";
+import { translateMorse, translateEnglish } from "./functions.js";
 
 //displays the morse in a separate section
 document.querySelectorAll(".submitText").forEach((element) => {
