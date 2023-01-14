@@ -8,17 +8,29 @@
     <script src="script.js" type="module" defer></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <h1>Morse Code Translator</h1>
 
-    <h2>Enter text to translate here:</h2>
-    <form>
-      <textarea id="englishTextContainer" rows="6" cols="50"></textarea>
-      <br />
-      <input type="submit" class="submitText" />
-    </form>
-    <h2>Your translation:</h2>
-    <p id="translatedOutput"></p>
-  </body>
+  <h1>Morse Code Translator</h1>
+  <main>
+    <section>
+      <h2>Enter Morse code here to translate</h2>
+      <form>
+        <textarea id="morseTextContainer" rows="6" cols="50"> </textarea>
+        <br />
+        <input type="submit" />
+      </form>
+      <h2>Your translation:</h2>
+      <p></p>
+    </section>
+    <section>
+      <h2>Enter English text to translate here:</h2>
+      <form>
+        <textarea id="englishTextContainer" rows="6" cols="50"></textarea>
+        <br />
+        <input type="submit" class="submitText" />
+      </form>
+      <h2>Your translation:</h2>
+      <p id="translatedOutput"></p>
+    </section>
+  </main>
   <footer></footer>
 </html>
