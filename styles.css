@@ -10,7 +10,6 @@ h1 {
 main {
   display: flex;
   align-items: center;
-  justify-content: baseline;
   margin: 2rem;
 }
 main section {
