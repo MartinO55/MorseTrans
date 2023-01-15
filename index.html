@@ -8,29 +8,30 @@
     <script src="script.js" type="module" defer></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
-
-  <h1>Morse Code Translator</h1>
-  <main>
-    <section>
-      <h2>Enter Morse code here to translate</h2>
-      <form>
-        <textarea id="morseTextContainer" rows="6" cols="50"> </textarea>
-        <br />
-        <input type="submit" class="submitMorse" />
-      </form>
-      <h2>Your translation:</h2>
-      <p id="translatedEnglishOutput"></p>
-    </section>
-    <section>
-      <h2>Enter English text to translate here:</h2>
-      <form>
-        <textarea id="englishTextContainer" rows="6" cols="50"></textarea>
-        <br />
-        <input type="submit" class="submitEnglish" />
-      </form>
-      <h2>Your translation:</h2>
-      <p id="translatedMorseOutput"></p>
-    </section>
-  </main>
-  <footer></footer>
+  <body>
+    <h1>Morse Code Translator</h1>
+    <main>
+      <section class="translateMorseToEnglish">
+        <h2>Enter Morse code here to translate</h2>
+        <form>
+          <textarea id="morseTextContainer" rows="6" cols="50"> </textarea>
+          <br />
+          <input type="submit" class="submitMorse" />
+        </form>
+        <h2>Your translation:</h2>
+        <p id="translatedEnglishOutput"></p>
+      </section>
+      <section class="translateEnglishToMorse">
+        <h2>Enter English text to translate here:</h2>
+        <form>
+          <textarea id="englishTextContainer" rows="6" cols="50"></textarea>
+          <br />
+          <input type="submit" class="submitEnglish" />
+        </form>
+        <h2>Your translation:</h2>
+        <p id="translatedMorseOutput"></p>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
