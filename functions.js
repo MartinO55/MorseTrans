@@ -35,6 +35,7 @@ const morseCode = {
   7: "--...",
   8: "---..",
   9: "----.",
+  " ": "|",
 };
 
 //this function takes the basic dictionary and just uses it
@@ -55,6 +56,7 @@ export function translateEnglish(stringToTranslate) {
   const englishCode = Object.fromEntries(
     Object.entries(morseCode).map(([key, value]) => [value, key])
   );
+
   let outstring = stringToTranslate
 
     .split(" ")
