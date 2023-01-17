@@ -1,0 +1,34 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  margin: 1rem;
+  background-color: beige;
+}
+
+main {
+  display: flex;
+  align-items: center;
+
+  margin: 2rem;
+
+  section {
+    border: solid 1px black;
+    margin: 0.5rem;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    background-color: beige;
+
+    &:hover {
+      box-shadow: 0rem, 0rem, 1rem black;
+    }
+
+    textarea {
+      &:hover {
+        box-shadow: 0rem, 0rem, 1rem black;
+        background-color: rgba(248, 248, 248, 0.568);
+      }
+    }
+  }
+}
