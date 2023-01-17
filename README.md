@@ -20,7 +20,7 @@ This task was to create a web page Morse Code translator. For this I have tried 
 
 Github: <https://github.com/MartinO55/MorseTrans>
 
-Live website:
+Live website: <https://martino55.github.io/MorseTrans/>
 
 ### Morse Code
 
